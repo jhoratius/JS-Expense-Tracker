@@ -1,0 +1,85 @@
+body{
+    background-color: cornsilk;
+    
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* Font  */
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2vmax;
+    color:darkblue;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+}
+
+.fields{
+    display:flex;
+    justify-content: space-between;
+    margin:2%;
+}
+
+.enter_exp{
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+}
+
+.enter_exp input{
+    padding:2%;
+    width:20vmax;
+    border:2px solid blue;
+    background-color:rgb(0, 96, 160);
+    color:white;
+    outline:none;
+}
+
+.enter_exp input:hover{
+    background-color: rgb(8, 49, 136);
+}
+
+::-webkit-calendar-picker-indicator{
+        filter: invert(1);
+    }
+
+/* Table  */
+
+table, th, td{
+    border : 0.2vmax solid rgb(8, 49, 136);
+    text-align : center;
+}
+
+button[type="submit"]{
+    font-size:2vmax;
+    border:5px solid white;
+    background-color: rgb(0, 96, 160);
+    color:white;
+}
+
+.deleteBtn{
+    font-size: 1vmax;
+    border:none;
+    background-color:transparent;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2vmax;
+    color:darkblue;
+}
+
+.deleteBtn:hover{
+    color:rgb(173, 0, 0);
+}
+
+.checked{
+   background-color: rgb(0, 187, 0); 
+}
